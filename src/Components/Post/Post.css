@@ -1,0 +1,45 @@
+/***************************************************************************************************** 
+                                Left Post Section Start Here
+******************************************************************************************************/
+
+.left-post-section {
+    padding: 25px;
+    border: 2px solid lightblue;
+}
+
+.left-post-section .left-post {
+    overflow: hidden;
+}
+
+.left-post-section hr {
+    border: 0;
+    border-bottom: 2px solid lightblue;
+    margin: 25px 0;
+}
+
+.left-post-section .left-post .post-image {
+    float: left;
+    padding-right: 25px;
+    border-right: 2px solid lightblue;
+}
+
+.left-post-section .left-post .post-info {
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+.left-post-section .left-post .post-info h4 {
+    margin-top: 0;
+    color: lightseagreen;
+}
+
+/***************************************************************************************************** 
+                                Right Post Section Start Here
+******************************************************************************************************/
+.right-post-section {
+    padding: 25px;
+    border: 2px solid lightblue;
+}
+.right-post-section .right-post .post-info h4 {
+    color: lightseagreen;
+}
