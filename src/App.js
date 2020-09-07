@@ -5,6 +5,7 @@ import '@material-ui/core/';
 import Home from './Components/Home/Home';
 import NoMatch from './Components/NoMatch/NoMatch';
 import PostDetail from './Components/Postdetail/PostDetail';
+import Header from './Components/Header/Header';
 
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
   return (
 
           <Router>
+            
+            <Header></Header>
             <Switch>
-
               <Route path="/home">
                 <Home></Home>
               </Route>
